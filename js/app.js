@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-	for (i=1; i<=20; i++){
+	
+	for (i=1; i<=100; i++){
 	
 		if (i % 15 === 0){
 			$("#append2").append("<li>FizzBuzz</li>");
@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$("#append2").append("<li>Buzz</li>");
 			}
 		else {
-		$("#append2").append("<li>i</li>");
+		$("#append2").append("<li>"+i+"</li>");
 			}
 			
 	}
