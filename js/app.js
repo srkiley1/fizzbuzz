@@ -13,7 +13,7 @@ $(document).ready( function(){
 			$("#append2").append("<li>Buzz</li>");
 				}
 			else {
-			$("#append2").append("<li>"+i+"</li>");
+			$("#append2").append("<li>"+number+"</li>");
 				}
 		}
 	}
