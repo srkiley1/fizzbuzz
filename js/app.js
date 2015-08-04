@@ -1,7 +1,7 @@
 $(document).ready( function(){
-	function fizzbuzz () {
+
 	 
-		for (number=1; number<=20; number++){
+		for (number=1; number<=100; number++){
 	
 			if (number % 15 === 0){
 				$("#append2").append("<li>FizzBuzz</li>");
@@ -17,9 +17,5 @@ $(document).ready( function(){
 				$("#append2").append("<li>"+number+"</li>");
 			}
 		}
-	}
-	var number =prompt("please enter a number between 1 and 20")
-	number
-	document.write(number)
-	fizzbuzz ()
+	
 });
